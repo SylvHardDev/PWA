@@ -1,0 +1,27 @@
+{
+    "lang": "en-us",
+    "name": "Convertisseur de temperatur",
+    "short_name": "CTA",
+    "description": "conversion d'une temperature en celcius, kelvin, fahreneiht",
+    "start_url": "/",
+    "background_color": "#2f3d58",
+    "theme_color": "#2f3d58",
+    "orientation": "any",
+    "display": "standalone",
+    "icons": [{
+        "src": "/icon512.png",
+        "sizes": "512x512",
+        "purpose": "any maskable"
+    }, {
+        "src": "/icon2.png",
+        "sizes": "192x192",
+        "purpose": "any maskable"
+    }],
+    "prifer_related_applications": true,
+    "related_applications": [
+        {
+        "platform": "play",
+        "id": "com.google.samples.apps.iosched"
+        }
+    ]
+}
