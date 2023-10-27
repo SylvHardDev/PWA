@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="theme-color" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet"  href="css/style.css" type="text/css"/>
+    <link rel="manifest" href="manifest.json" />
+    <title>Service workers</title>
+  </head>
+  <body>
+    <div class="search__box">
+      <div id="searchForm" class="recherche">
+        <input id="searchInput" type="text" placeholder="Rechercher un film" />
+        <button id="searchButton">Search</button>
+      </div>
+    </div>
+
+    <div id="resultsContainer"></div>
+    <script src="js/serviceWorker.js"></script>
+  </body>
+</html>
